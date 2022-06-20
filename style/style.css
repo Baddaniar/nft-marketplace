@@ -1,0 +1,161 @@
+p{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+
+}
+
+header{
+    height: 110px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.logo{
+    height: 47px;
+    width: 170px;
+    background-image: url(./../images/Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: 1px solid grey;
+}
+
+nav{
+    display: flex;
+    width: 620px;
+    height: 21px;
+}
+
+.nav_menu{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 47px;
+}
+
+#search{
+    background: #FFFFFF;
+    border: 2px solid #EFEFEF;
+    border-radius: 100px;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+#search::placeholder{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #C0C0C0;
+}
+
+#upload{
+    width: 131px;
+    height: 50px;
+    background: #3D00B7;
+    border-radius: 60px;
+    color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    margin-right: 20px;
+}
+
+#connect_wallet{
+    width: 156px;
+    height: 50px;
+    border: 2px solid #3D00B7;
+    border-radius: 60px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3D00B7;
+    background-color: white;
+}
+
+.hero{
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+    margin: 57px 120px 122px 120px;
+}
+
+.hero_header{
+    width: 612px;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 48px;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 15px;
+    margin-left: 52px;
+}
+
+.hero_text{
+    width: 471px;
+    height: 96px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #565656;
+    margin-top: 22px;
+    margin-left: 52px;
+}
+
+#explore{
+    width: 209px;
+    height: 65px;
+    background: #3D00B7;
+    border-radius: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    border: none;
+    margin-top: 61px;
+    margin-left: 52px;
+}
+
+.amount_box{
+    width: 400px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 52px;
+}
+
+.amount_numbers{
+    widows: 116px;
+    height: 75px;
+}
+
+.amount{
+    font-family: 'Russo One', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.amount_type{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #565656;
+}
