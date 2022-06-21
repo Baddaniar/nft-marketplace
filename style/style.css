@@ -159,3 +159,175 @@ nav{
     line-height: 32px;
     color: #565656;
 }
+
+.features_box{
+    width: 100%;
+    height: 326px;
+    background-color: rgba(217, 224, 236, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 230px;
+    box-sizing: border-box;
+}
+
+.features_text{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    font-family: 'Russo One', sans-serif;
+    width: 368px;
+}
+
+.features{
+    width: 300px;
+    height: 107px;
+}
+
+.feature_header{
+    display: flex;
+}
+
+.feature_header > p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 16px;
+}
+
+.features > p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #696969;
+    margin-left: 52px;
+}
+
+.collection_example{
+    height: 808px;
+    width: 100%;
+    display: flex;
+    padding: 134px 230px 134px 300px;
+    box-sizing: border-box;
+}
+
+.big_picture{
+    height: 540px;
+    width: 400px;
+}
+
+.small_picture{
+    width: 439px;
+    height: 540px;
+}
+
+.top_collection{
+    width: 361px;
+    height: 540px;
+    border-left: 1px solid #ECECEC;;
+}
+
+.big_picture_info{
+    display: flex;
+    margin-top: 32px;
+}
+
+.profile_info{
+    margin-left: 10px;
+    margin-right: 120px;
+}
+
+.collection_name{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.stock_amount{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.hbid{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.bid_amount{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.bid_amount::before{
+    content: url(./../images/coin.png);
+    margin-right: 5px;
+}
+
+.small_picture_box{
+    display: flex;
+    margin-left: 53px;
+    margin-bottom: 40px;
+}
+
+.sbox_info{
+    margin-left: 20px;
+    height: 128px;
+    width: 167px;
+    margin-top: 10px;
+}
+
+.sbox_info_icon{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.bid_button{
+    width: 113px;
+    height: 45px;
+    border: 2px solid #3D00B7;
+    background-color: white;
+    border-radius: 50px;
+    color: #3D00B7;
+    margin-top: 15px;
+}
+
+.active{
+    color: white;
+    background-color: #3D00B7;
+}
+
+.amount_block{
+    display: flex;
+    width: 80.53px;
+    height: 32px;
+    border: 1px solid #00AC4F;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount_block > p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #00AC4F;
+}
