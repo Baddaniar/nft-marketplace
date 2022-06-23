@@ -9,7 +9,7 @@ body{
 
 header{
     height: 110px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid grry;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -256,6 +256,7 @@ nav{
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+    color: #757575;
 }
 
 .hbid{
@@ -420,4 +421,308 @@ nav{
 
 .border{
     border-bottom: 1px solid #F0F0F0;
+}
+
+.featured_nft{
+    width: 100%;
+    height: 619px;
+    background-color: rgba(217, 224, 236, 0.2);
+    box-sizing: border-box;
+    padding-top: 65px;
+}
+
+.featured_nft_box{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 55px auto
+}
+
+.nft_box{
+    width: 379px;
+    height: 366px;
+}
+
+.nft_pictures{
+    display: flex;
+    width: 100%;
+    height: 272.72px;
+    justify-content: space-between;
+}
+
+.small_pictures_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nft_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nft_profile_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 30px;
+}
+
+.mt-28{
+    margin-top: 28px;
+}
+
+.nft_amount{
+    width: 98px;
+    height: 29px;
+    border: 1px solid #2639ED;
+    border-radius: 60px;
+    background-color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.0008px;
+    line-height: 14px;
+    color: #2639ED;
+}
+
+.ml-{
+    margin-left: 300px;
+}
+
+.sign_up_block{
+    width: 100%;
+    height: 790px;
+    display: flex;
+}
+
+.sign_up_left{
+    height: 790px;
+    width: 700px;
+}
+
+.sign_up_right{
+    height: 790px;
+    width: 517px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign_up_header{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Russo One', sans-serif;
+    width: 290px;
+    height: 76px;
+    margin-bottom: 40px;
+}
+
+.sign_up_text{
+    width: 517px;
+    height: 145px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.sign_up_button{
+    width: 212px;
+    height: 65px;
+    background: #3D00B7;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: white;
+    border: none;
+}
+
+#signuppicture1{
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 102px;
+}
+
+#signuppicture2{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 240px;
+}
+#signuppicture3{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 456px;
+}
+
+.more_nft_block{
+    width: 100%;
+    height: 2001px;
+    background-color: rgba(217, 224, 236, 0.2);
+    box-sizing: border-box;
+    padding-top: 64px;
+}
+
+.more_nft_header{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.filter_block{
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.fcategory{
+    width: max-content;
+    height: 38px;
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 12px;
+}
+
+.all{
+    background: #3D00B7;
+    color: white;
+}
+
+.all_filters{
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    color: #371C87;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+#all_filters_image{
+    position: absolute;
+    margin-left: 1108px;
+    margin-top: 11px;
+}
+
+.nft_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(4, 373px);
+    gap: 40px 51px;
+    margin-top: 40px;
+}
+
+.nft_box{
+    width: 270px;
+    height: 373px;
+    background: #FFFFFF;
+    border: 1.09706px solid rgba(242, 242, 242, 0.5);
+    border-radius: 13.1647px;
+}
+
+.nft_box_image{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.nft_box_name_margin{
+    margin-top: 13px;
+    margin-left: 23px;
+}
+
+.nft_box_amount{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.nft_price{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9706px;
+    line-height: 14px;
+    color: #00AC4F;
+    margin-right: 131px;
+}
+
+
+.time_bid{
+    display: flex;
+    width: 223px;
+    height: 51.56px;
+    justify-content: space-between;
+    border-top: 1px solid #F4F4F4;
+    margin-left: 23px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.time_left{
+    background: #F5F5F5;
+    border-radius: 109.706px;
+    border: none;
+    width: 93px;
+    height: 29px;
+    color: #5539A8;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9706px;
+    line-height: 19px;
+
+}
+
+.place_bid{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.3588px;
+    line-height: 20px;
+    color: #4F33A3;
+}
+
+.more_nft_button{
+    width: 179px;
+    height: 66px;
+    border: 2px solid #3D00B7;
+    border-radius: 50px;
+    background: rgba(217, 224, 236, 0.2);
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #4F33A3;
+    margin: 50px auto;
+    display: table;
+}
+
+footer{
+    width: 100%;
+    height: 456px;
 }
