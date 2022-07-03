@@ -726,3 +726,105 @@ footer{
     width: 100%;
     height: 456px;
 }
+
+.footer_container{
+    display: flex;
+    margin: 79px;
+    justify-content: space-evenly;
+}
+
+.fpart{
+    width: 333px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fpart_icons{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.fpart_name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 20px;
+}
+
+.fpart_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #565656;
+    font-family: 'DM Sans';
+    margin-bottom: 25px;
+}
+
+.spart{
+    width: 113px;
+    height: 243px;
+}
+
+.spart_name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'DM Sans';
+}
+
+.footer_list{
+    padding: 0;
+}
+
+.footer_list > li{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    font-family: 'DM Sans';
+    list-style: none;
+}
+
+.tpart{
+    width: 106px;
+    height: 159px;
+}
+
+.fpart{
+    width: 364px;
+    height: 197.79px;
+}
+
+.footer_email_type{
+    width: 364px;
+    height: 60.79px;
+    background: #FFFFFF;
+    border: 2px solid #F1F1F1;
+    border-radius: 45.595px;
+}
+
+.footer_email_type::placeholder{
+    font-weight: 400;
+    font-size: 12.1587px;
+    line-height: 16px;
+    font-family: 'DM Sans';
+    padding-left: 25px;
+}
+
+.footer_subscribe_button{
+    position: absolute;
+    margin-top: 126px;
+    margin-left: 210px;
+    border: none;
+    width: 149.79px;
+    height: 46.4px;
+    background: #2639ED;
+    border-radius: 45.595px;
+    font-weight: 400;
+    font-size: 12.1587px;
+    line-height: 16px;
+    color: white;
+    font-family: 'DM Sans';
+}
